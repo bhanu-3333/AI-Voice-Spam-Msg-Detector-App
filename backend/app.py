@@ -11,7 +11,6 @@ classifier = pipeline(
     "text-classification",
     model="cybersectony/phishing-email-detection-distilbert_v2.1"
 )
-
 @app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()

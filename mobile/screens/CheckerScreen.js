@@ -45,10 +45,10 @@ export default function CheckerScreen() {
 
     if (res.label === "LABEL_1") {
       setType("fake");
-      speakAndType("Warning! This message looks like a scam.");
+      speakAndType("   Warning! This message looks like a scam.");
     } else {
       setType("safe");
-      speakAndType("This message looks safe.");
+      speakAndType("  This message looks safe.");
     }
   };
 

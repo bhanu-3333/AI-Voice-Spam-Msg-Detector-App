@@ -64,7 +64,7 @@ The app shows:
 
 . React Navigation
 
-Backend (AI Server)
+ 🏗️ Backend (AI Server)
 
 . Python
 

@@ -22,6 +22,15 @@ The app provides voice alerts, typing-based warnings, and context-aware safety a
 . Internship/job scam warnings
 
  
+ ## 📱 App Output (Mobile View)
+
+| | |
+|---|---|
+| ![Output 1](screenshots/output1.jpg) | ![Output 2](screenshots/output2.jpg) |
+| ![Output 3](screenshots/output3.jpg) | ![Output 4](screenshots/output4.jpg) |
+
+
+
 📱 Built as a React Native mobile app (Android / iOS)
 
 🌐 Flask backend with AI NLP model (DistilBERT)
@@ -105,3 +114,4 @@ Use:
 
 
 http://10.0.2.2:5000/predict
+

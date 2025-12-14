@@ -43,6 +43,7 @@ export default function CheckerScreen() {
 
     setAdvice(adv);
 
+    
     if (res.label === "LABEL_1") {
       setType("fake");
       speakAndType("   Warning! This message looks like a scam.");

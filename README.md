@@ -26,8 +26,8 @@ The app provides voice alerts, typing-based warnings, and context-aware safety a
 
 | | |
 |---|---|
-| ![Output 1](screenshots/output1.jpg) | ![Output 2](screenshots/output2.jpg) |
-| ![Output 3](screenshots/output3.jpg) | ![Output 4](screenshots/output4.jpg) |
+| ![Output 1](screenshots/output1.png) | ![Output 2](screenshots/output2.png) |
+| ![Output 3](screenshots/output3.png) | ![Output 4](screenshots/output4.png) |
 
 
 

@@ -12,7 +12,6 @@ export default function CheckerScreen() {
     Speech.speak(message);
     setResult("");
     let i = 0;
-    
     const interval = setInterval(() => {
       setResult((prev) => prev + message[i]);
       i++;

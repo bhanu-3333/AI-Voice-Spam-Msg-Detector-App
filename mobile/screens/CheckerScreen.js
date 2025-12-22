@@ -2,15 +2,11 @@ import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { useState } from "react";
 import * as Speech from "expo-speech";
 const BACKEND_URL = "http://10.0.2.2:5000/predict";
-
-
-
 export default function CheckerScreen() {
   const [text, setText] = useState("");
   const [result, setResult] = useState("");
   const [advice, setAdvice] = useState([]);
   const [type, setType] = useState("");
-
   const speakAndType = (message) => {
     Speech.stop();
     Speech.speak(message);

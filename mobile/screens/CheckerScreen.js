@@ -20,6 +20,7 @@ export default function CheckerScreen() {
     }, 40);
   };
 
+  
   const checkMessage = async () => {
     setAdvice([]);
     const response = await fetch(BACKEND_URL, {
